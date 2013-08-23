@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:src="@drawable/mileage"
+        android:layout_width="fill_parent"
+        android:layout_height="151.3dp"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="Your current Mileage is 20km/hr"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="164.0dp"
+        android:layout_height="101.3dp"
+        android:text="Add Refill Details" />
+</LinearLayout>
